@@ -1,0 +1,133 @@
+/* line 1, ../sass/custom.scss */
+body .container .box .description p, body .container .box .description h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 7, ../sass/custom.scss */
+body {
+  background-color: #f1f1f0;
+  margin-top: 40px;
+}
+/* line 11, ../sass/custom.scss */
+body .container {
+  padding: 2rem;
+  border-radius: 20px;
+  background-color: white;
+  width: 500px;
+  margin-left: 300px;
+  box-shadow: 10px 10px 50px #999;
+}
+/* line 19, ../sass/custom.scss */
+body .container .browser {
+  background-color: white;
+  width: 100%;
+}
+/* line 23, ../sass/custom.scss */
+body .container .browser .search {
+  width: 82%;
+  height: 35px;
+  border-radius: 5px;
+  color: #a6aaad;
+  border: 1px solid #c2c3c3;
+}
+/* line 30, ../sass/custom.scss */
+body .container .browser .submit-btn {
+  width: 15%;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  font-weight: bold;
+  float: right;
+  border: 1px solid #c2c3c3;
+}
+/* line 41, ../sass/custom.scss */
+body .container .box {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  margin-top: 20px;
+  height: 100px;
+}
+/* line 47, ../sass/custom.scss */
+body .container .box .logo {
+  width: 20%;
+  height: 100%;
+}
+/* line 51, ../sass/custom.scss */
+body .container .box .description {
+  background-color: white;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* line 58, ../sass/custom.scss */
+body .container .box .description p {
+  color: #24252c;
+}
+/* line 62, ../sass/custom.scss */
+body .container .box .description h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #24252c;
+  font-size: 2.6rem;
+}
+/* line 70, ../sass/custom.scss */
+body .container .table {
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+  height: 350px;
+  text-align: left;
+  color: #24252c;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-collapse: collapse;
+}
+/* line 79, ../sass/custom.scss */
+body .container .table .first {
+  border-bottom: 3px solid #24252c;
+  height: fit-content;
+}
+/* line 82, ../sass/custom.scss */
+body .container .table .first .title {
+  float: left;
+}
+/* line 84, ../sass/custom.scss */
+body .container .table .first .title p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+/* line 93, ../sass/custom.scss */
+body .container tr {
+  border-bottom: 1px solid #a6aaad;
+}
+/* line 96, ../sass/custom.scss */
+body .container tr td p {
+  float: left;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+/* line 103, ../sass/custom.scss */
+body .container tr td .icons {
+  float: right;
+}
+/* line 105, ../sass/custom.scss */
+body .container tr td .icons span {
+  font-size: 12px;
+}
+/* line 114, ../sass/custom.scss */
+body .error {
+  height: 100%;
+  width: 500px;
+  background-color: #f8dbdb;
+  color: #743a3a;
+  border: 1px solid #743a3a;
+  border-radius: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 40px;
+  margin-left: 320px;
+  padding-left: 20px;
+}
