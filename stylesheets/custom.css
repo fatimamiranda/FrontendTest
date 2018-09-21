@@ -23,15 +23,20 @@ body .container .browser {
   background-color: white;
   width: 100%;
 }
-/* line 23, ../sass/custom.scss */
+/* line 24, ../sass/custom.scss */
+body .container .browser .formu {
+  width: 98%;
+  display: inline;
+}
+/* line 29, ../sass/custom.scss */
 body .container .browser .search {
   width: 82%;
-  height: 35px;
+  height: 35px !important;
   border-radius: 5px;
   color: #a6aaad;
   border: 1px solid #c2c3c3;
 }
-/* line 30, ../sass/custom.scss */
+/* line 36, ../sass/custom.scss */
 body .container .browser .submit-btn {
   width: 15%;
   height: 35px;
@@ -40,8 +45,9 @@ body .container .browser .submit-btn {
   font-weight: bold;
   float: right;
   border: 1px solid #c2c3c3;
+  display: inline;
 }
-/* line 41, ../sass/custom.scss */
+/* line 48, ../sass/custom.scss */
 body .container .box {
   display: flex;
   background-color: white;
@@ -49,12 +55,16 @@ body .container .box {
   margin-top: 20px;
   height: 100px;
 }
-/* line 47, ../sass/custom.scss */
-body .container .box .logo {
-  width: 20%;
-  height: 100%;
+/* line 55, ../sass/custom.scss */
+body .container .box .lo {
+  width: 160px;
 }
-/* line 51, ../sass/custom.scss */
+/* line 58, ../sass/custom.scss */
+body .container .box .logo {
+  width: 100%;
+  height: 120%;
+}
+/* line 62, ../sass/custom.scss */
 body .container .box .description {
   background-color: white;
   padding-left: 10px;
@@ -62,17 +72,17 @@ body .container .box .description {
   flex-direction: column;
   justify-content: space-between;
 }
-/* line 58, ../sass/custom.scss */
+/* line 69, ../sass/custom.scss */
 body .container .box .description p {
   color: #24252c;
 }
-/* line 62, ../sass/custom.scss */
+/* line 73, ../sass/custom.scss */
 body .container .box .description h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #24252c;
   font-size: 2.6rem;
 }
-/* line 70, ../sass/custom.scss */
+/* line 81, ../sass/custom.scss */
 body .container .table {
   width: 100%;
   background-color: white;
@@ -83,26 +93,26 @@ body .container .table {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border-collapse: collapse;
 }
-/* line 79, ../sass/custom.scss */
+/* line 90, ../sass/custom.scss */
 body .container .table .first {
   border-bottom: 3px solid #24252c;
   height: fit-content;
 }
-/* line 82, ../sass/custom.scss */
+/* line 93, ../sass/custom.scss */
 body .container .table .first .title {
   float: left;
 }
-/* line 84, ../sass/custom.scss */
+/* line 95, ../sass/custom.scss */
 body .container .table .first .title p {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 10px;
 }
-/* line 93, ../sass/custom.scss */
+/* line 104, ../sass/custom.scss */
 body .container tr {
   border-bottom: 1px solid #a6aaad;
 }
-/* line 96, ../sass/custom.scss */
+/* line 107, ../sass/custom.scss */
 body .container tr td p {
   float: left;
   font-weight: bold;
@@ -110,15 +120,15 @@ body .container tr td p {
   padding: 0;
   font-size: 20px;
 }
-/* line 103, ../sass/custom.scss */
+/* line 114, ../sass/custom.scss */
 body .container tr td .icons {
   float: right;
 }
-/* line 105, ../sass/custom.scss */
+/* line 116, ../sass/custom.scss */
 body .container tr td .icons span {
   font-size: 12px;
 }
-/* line 114, ../sass/custom.scss */
+/* line 125, ../sass/custom.scss */
 body .error {
   height: 100%;
   width: 500px;

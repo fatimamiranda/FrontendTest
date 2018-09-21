@@ -5,26 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="/home/bambu/Documentos/test/stylesheets/custom.css">
+    <link rel="stylesheet" href="stylesheets/custom.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- main start -->
     <main>
+            
         <div class="container">
+                
             <div class="browser">
-                <!-- I added an id to connect it with the JS -->
-                <input id="search" class="search" type="search" placeholder="  Search username...">
-                <input class="submit-btn" type="submit" value="Search">
-            </div>
+                    <form  class="formu" name="formul" onsubmit="return validate1()" method="get" >
+                    <input name="buscar" class="search" type="text" placeholder="  Search username..." value="">
+                     </form>  
+                    <input class="submit-btn" type="submit" value="Search" onclick="gitHubApi()">
+                
+                </div>
 
             <div class="box">
-                <img class="logo" src="img/mlkit.webp" alt="" ;>
+                <div class="lo"id="logo" ></div>
                 <div class="description">
-                    <p><i>@username</i></p>
-                    <h1> Full name </h1>
-                    <p> this is the bio....</p>
+                    <p id="username"><i>@username</i></p>
+                    <h1 id="fullname"> Full name </h1>
+                    <p id="bio"> this is the bio....</p>
+                
                 </div>
             </div>
 
@@ -38,10 +43,10 @@
                 <tr>
                     <td>
                         <span class="repo-info">
-                            <p> Repo 1 </p>
+                            <p id="repo1"> Repo 1 </p>
                             <span class="icons">
-                                <i class="fas fa-star"></i> <span> 50 </span>
-                                <i class="fas fa-code-branch"> </i> <span> 10 </span>
+                                <i class="fas fa-star"></i> <span id="star1"> </span>
+                                <i class="fas fa-code-branch"> </i> <span id="branch1"> </span>
                             </span>
                         </span>
                     </td>
@@ -49,10 +54,10 @@
                 <tr>
                     <td>
                         <span class="repo-info">
-                            <p> Repo 2 </p>
+                            <p id="repo2"> Repo 2 </p>
                             <span class="icons">
-                                <i class="fas fa-star"></i> <span> 50 </span>
-                                <i class="fas fa-code-branch"> </i> <span> 10 </span>
+                                <i class="fas fa-star"></i> <span id="star2">  </span>
+                                <i class="fas fa-code-branch"> </i> <span id="branch2">  </span>
                             </span>
                         </span>
                     </td>
@@ -60,10 +65,10 @@
                 <tr>
                     <td>
                         <span class="repo-info">
-                            <p> Repo 3 </p>
+                            <p id="repo3"> Repo 3 </p>
                             <span class="icons">
-                                <i class="fas fa-star"></i> <span> 50 </span>
-                                <i class="fas fa-code-branch"> </i> <span> 10 </span>
+                                <i class="fas fa-star"></i> <span id="star3"> </span>
+                                <i class="fas fa-code-branch"> </i> <span id="branch3"> </span>
                             </span>
                         </span>
                     </td>
@@ -71,10 +76,10 @@
                 <tr>
                     <td>
                         <span class="repo-info">
-                            <p> Repo 4 </p>
+                            <p id="repo4"> Repo 4 </p>
                             <span class="icons">
-                                <i class="fas fa-star"></i> <span> 50 </span>
-                                <i class="fas fa-code-branch"> </i> <span> 10 </span>
+                                <i class="fas fa-star"></i> <span id="star4">  </span>
+                                <i class="fas fa-code-branch"> </i> <span id="branch4"> </span>
                             </span>
                         </span>
                     </td>
@@ -82,10 +87,10 @@
                 <tr>
                     <td>
                         <span class="repo-info">
-                            <p> Repo 5 </p>
+                            <p id="repo5"> Repo 5 </p>
                             <span class="icons">
-                                <i class="fas fa-star"></i> <span> 50 </span>
-                                <i class="fas fa-code-branch"> </i> <span> 10 </span>
+                                <i class="fas fa-star"></i> <span id="star5"> </span>
+                                <i class="fas fa-code-branch"> </i> <span id="branch5"> </span>
                             </span>
                         </span>
                     </td>
@@ -96,14 +101,12 @@
     <!-- main end -->
 
 
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 
     
-    <div class="error">
-        <p> Does not exist </p>
-
+    <div id="error" class="error">
+        <p>Does not exist</p>
     </div>
-
     </html>
 
 </body>
